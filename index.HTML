@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Downtownation Pre-Order</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 50px;
+        }
+
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            text-align: left;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+        #message {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #28a745;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="screenshot (1).png" alt="Downtownation Logo">
+        <h1>Pre-order Downtownation</h1>
+        <p>
+            <strong>Downtownation</strong> is an upcoming indie horror game that immerses players in a dark, terrifying world.
+            The game is set in eerie, decaying environments where danger lurks around every corner, creating a sense of isolation and fear.
+        </p>
+        <p>
+            A standout feature of <strong>Downtownation</strong> is its <strong>camera mechanic</strong>, allowing players to use surveillance or hand-held cameras to track movements, monitor threats, and uncover hidden dangers. This mechanic adds a strategic element to the gameplay, as players must balance exploration with carefully watching for lurking enemies.
+        </p>
+
+        <form action="https://formspree.io/f/xeoqjgvd" method="POST">
+            <input type="email" name="email" id="email" placeholder="Enter your email to pre-order" required>
+            <button type="submit">Pre-order</button>
+        </form>
+
+        <div id="message"></div>
+    </div>
+
+</body>
+</html>
